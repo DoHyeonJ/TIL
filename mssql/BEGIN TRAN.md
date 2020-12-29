@@ -4,10 +4,10 @@
 - BEGIN TRAN을 사용하면 트랜잭션을 걸어주어 실수로 잘못된 update, delete문을 실행했을때 rollback을 통하여 되돌릴 수 있다.
 
 ## 잘못된 쿼리문 실행시 ( ROLLBACK )
-> BEGIN TRAN
-UPDATE MEMBER SET 나이 = 10
---commit
---rollback
+> BEGIN TRAN<br>
+UPDATE MEMBER SET 나이 = 10<br>
+--commit<br>
+--rollback<br>
 
 - 위의 쿼리문 수행시 MEMBER테이블에 있는 모든 컬럼의 이름이 변경된다.
 - WHERE문을 사용하여 조건을 걸어줘야한다. 
@@ -15,11 +15,11 @@ UPDATE MEMBER SET 나이 = 10
 
 
 ## 쿼리문을 정상 실행시 ( COMMIT )
-> BEGIN TRAN
-UPDATE MEMBER SET 나이 = 10
-WHERE 이름 = '홍길동'
---commit
---rollback
+> BEGIN TRAN<br>
+UPDATE MEMBER SET 나이 = 10<br>
+WHERE 이름 = '홍길동'<br>
+--commit<br>
+--rollback<br>
 
 - 위의 쿼리문 처럼 WHERE(조건문)을 정확하게 걸어주어 제대로 된 쿼리문을 실행하였다면, commit을 이용하여 트랜잭션을 커밋해준다.
 
