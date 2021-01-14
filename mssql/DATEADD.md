@@ -9,12 +9,12 @@ Select GETDATE() - 2020-12-23 18:37:35.012
 ```
 ---
 
-```
+```mysql
 Select'년', DATEADD(Year, 1, GETDATE())
 ```
 > 결과 2021-12-23 18:37:35.012
 
-```
+```mysql
 Select'년', DATEADD(Day, 1, GETDATE())
 ```
 
