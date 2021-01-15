@@ -6,6 +6,6 @@
 ---
 ### 사용법
 ```mysql
-select * from 테이블명 with(nolock)
+select * from 테이블명 WITH(NOLOCK)
 ```
 ---
