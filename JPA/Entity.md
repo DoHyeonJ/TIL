@@ -1,7 +1,7 @@
 # Jpa Entity
 - DB에서 영속적으로 저장된 테이터를 자바 객체로 매핑하여 '인스턴스 형태'로 존재하는 데이터를 말한다.
 
-—-
+---
 
 사용예 )
 
@@ -20,7 +20,7 @@ private String pw; // 관리자 pw
 private LocalDateTime joinAt; //가입일
 }
 ```
-—-
+---
 
 > Entity : Entity 클래스임을 설정해준다.<br>
 Getter : Lombok 애노테이션, getter를 생성하여준다.<br>
@@ -33,4 +33,4 @@ Id : 기본키로 설정해준다.<br>
 Column : 컬럼으로 설정하여 준다.<br>
 unique = true : 해당 값을 유니크로 설정하여준다.<br>
 
-—-
+---
