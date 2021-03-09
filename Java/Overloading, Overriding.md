@@ -69,7 +69,40 @@ println의 인자 값으로 int, double, String 등의 타입의 매개변수들
 
 ex)
 
-<table class="colorscripter-code-table" style="margin: 0; padding: 0; border: none; background-color: #272727; border-radius: 4px;" cellspacing="0" cellpadding="0"><tbody><tr><td style="padding: 6px; width: 30px;"><div style="margin: 0; padding: 0; word-break: normal; text-align: right; color: #aaa; font-family: Consolas,&nbsp;'Liberation&nbsp;Mono',&nbsp;Menlo,&nbsp;Courier,&nbsp;monospace&nbsp;!important; line-height: 130%;"><div style="line-height: 130%;">1</div><div style="line-height: 130%;">2</div><div style="line-height: 130%;">3</div><div style="line-height: 130%;">4</div><div style="line-height: 130%;">5</div><div style="line-height: 130%;">6</div><div style="line-height: 130%;">7</div><div style="line-height: 130%;">8</div><div style="line-height: 130%;">9</div><div style="line-height: 130%;">10</div><div style="line-height: 130%;">11</div><div style="line-height: 130%;">12</div><div style="line-height: 130%;">13</div><div style="line-height: 130%;">14</div><div style="line-height: 130%;">15</div><div style="line-height: 130%;">16</div><div style="line-height: 130%;">17</div><div style="line-height: 130%;">18</div><div style="line-height: 130%;">19</div><div style="line-height: 130%;">20</div><div style="line-height: 130%;">21</div><div style="line-height: 130%;">22</div><div style="line-height: 130%;">23</div><div style="line-height: 130%;">24</div><div style="line-height: 130%;">25</div><div style="line-height: 130%;">26</div><div style="line-height: 130%;">27</div><div style="line-height: 130%;">28</div><div style="line-height: 130%;">29</div><div style="line-height: 130%;">30</div><div style="line-height: 130%;">31</div></div></td><td style="text-align: left; width: 770px;"><div style="margin: 0; padding: 0; color: #f0f0f0; font-family: Consolas,&nbsp;'Liberation&nbsp;Mono',&nbsp;Menlo,&nbsp;Courier,&nbsp;monospace&nbsp;!important; line-height: 130%;"><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;"><span style="color: #ff3399;">package</span>&nbsp;함수2.형성평가02;</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;"><span style="color: #ff3399;">public</span>&nbsp;<span style="color: #ff3399;">class</span>&nbsp;Main&nbsp;{</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff3399;">public</span>&nbsp;<span style="color: #ff3399;">static</span>&nbsp;<span style="color: #ff3399;">void</span>&nbsp;main(<span style="color: #4be6fa;">String</span>[]&nbsp;args)&nbsp;{</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apple&nbsp;ap&nbsp;<span style="color: #0086b3;"></span><span style="color: #ff3399;">=</span>&nbsp;<span style="color: #ff3399;">new</span>&nbsp;Apple();</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Grape&nbsp;gp&nbsp;<span style="color: #0086b3;"></span><span style="color: #ff3399;">=</span>&nbsp;<span style="color: #ff3399;">new</span>&nbsp;Grape();</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Banana&nbsp;bn&nbsp;<span style="color: #0086b3;"></span><span style="color: #ff3399;">=</span>&nbsp;<span style="color: #ff3399;">new</span>&nbsp;Banana();</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ap.color();" target="_blank" rel="noopener">ap.color();</a></div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="gp.color();" target="_blank" rel="noopener">gp.color();</a></div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="bn.color();" target="_blank" rel="noopener">bn.color();</a></div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;}</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">}</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;"><span style="color: #ff3399;">class</span>&nbsp;Apple{</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff3399;">void</span>&nbsp;color()&nbsp;{</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #4be6fa;">System</span>.<span style="color: #4be6fa;">out</span>.<span style="color: #4be6fa;">println</span>(<span style="color: #ffd500;">"red"</span>);</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;}</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">}</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;"><span style="color: #ff3399;">class</span>&nbsp;Grape&nbsp;<span style="color: #ff3399;">extends</span>&nbsp;Apple{</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;@Override</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff3399;">protected</span>&nbsp;<span style="color: #ff3399;">void</span>&nbsp;color()&nbsp;{</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #4be6fa;">System</span>.<span style="color: #4be6fa;">out</span>.<span style="color: #4be6fa;">println</span>(<span style="color: #ffd500;">"pupple"</span>);</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;}</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">}</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;"><span style="color: #ff3399;">class</span>&nbsp;Banana&nbsp;<span style="color: #ff3399;">extends</span>&nbsp;Apple{</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;@Override</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff3399;">public</span>&nbsp;<span style="color: #ff3399;">void</span>&nbsp;color()&nbsp;{</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #4be6fa;">System</span>.<span style="color: #4be6fa;">out</span>.<span style="color: #4be6fa;">println</span>(<span style="color: #ffd500;">"yellow"</span>);</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">&nbsp;&nbsp;&nbsp;&nbsp;}</div><div style="padding: 0&nbsp;6px; white-space: pre; line-height: 130%;">}</div></div><div style="text-align: right; margin-top: -13px; margin-right: 5px; font-size: 9px; font-style: italic;">&nbsp;</div></td><td style="vertical-align: bottom; width: 10px;">&nbsp;</td></tr></tbody></table>
+```java
+package 함수2.형성평가02;
+ 
+public class Main {
+ 
+    public static void main(String[] args) {
+        Apple ap = new Apple();
+        Grape gp = new Grape();
+        Banana bn = new Banana();
+        
+        ap.color();
+        gp.color();
+        bn.color();
+    }
+}
+class Apple{
+    void color() {
+        System.out.println("red");
+    }
+}
+class Grape extends Apple{
+    @Override
+    protected void color() {
+        System.out.println("pupple");
+    }
+}
+class Banana extends Apple{
+    @Override
+    public void color() {
+        System.out.println("yellow");
+    }
+}
+
+```
 
 <결과>
 
