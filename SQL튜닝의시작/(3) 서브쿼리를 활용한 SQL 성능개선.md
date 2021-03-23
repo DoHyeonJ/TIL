@@ -7,7 +7,7 @@
 
 #### ex )
 
-```
+```sql
 --MINUS
 select...
 from A MINUS 
